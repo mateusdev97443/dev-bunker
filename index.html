@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Bunker</title>
+    <title>Dev Bunker - Terminal</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Biblioteca para parsear Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-    <header><h1>Dev Bunker</h1></header>
-    <main id="content-area">Selecione um tópico</main>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="js/script.js"></script>
+    <header>
+        <h1>🏗️ DEV BUNKER</h1>
+        <p class="subtitle">Second Brain // Mobile Terminal</p>
+    </header>
+
+    <nav id="main-nav">
+        <button class="nav-btn" onclick="loadTopic('01-FUNDAMENTOS/box-model.md')">📦 Box Model</button>
+        <button class="nav-btn" onclick="loadTopic('01-FUNDAMENTOS/flexbox.md')">📐 Flexbox</button>
+        <button class="nav-btn" onclick="loadTopic('02-CSS/grid-layout.md')">🔲 Grid Layout</button>
+    </nav>
+
+    <main id="content-area">
+        <p class="placeholder">⬆️ Selecione um tópico no menu para carregar o cheatsheet.</p>
+    </main>
+
+    <footer>
+        <p>🔒 Bunker Architect // v1.0.0</p>
+    </footer>
 </body>
 </html>
