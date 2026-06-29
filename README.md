@@ -1,29 +1,41 @@
-# 🏰 DEV BUNKER | Mateus Ernandes Tech
+# 🏗️ Dev Bunker: Second Brain Mobile Terminal
 
-> *"O Segundo Cérebro do Dev. Onde o caos vira código e o código vira carreira."*
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
-Este repositório é o cofre de conhecimento, templates e cheatsheets de Mateus Ernandes. 
-Aqui não tem teoria vazia, apenas ferramentas de guerra para o dia a dia de um Front-End Developer.
+> 🔗 **Acesse o Live Demo:** [mateusdev97443.github.io/dev-bunker](https://mateusdev97443.github.io/dev-bunker/)
 
 ---
 
-## 🗺️ MAPA DO BUNKER
+## 📱 Sobre o Projeto
 
-| Pasta | O que tem lá? | Status |
+O **Dev Bunker** é uma ferramenta de produtividade e "Second Brain" desenvolvida especificamente para **consulta técnica em ambiente mobile**. Projetado para ser acessado rapidamente durante plantões de trabalho e sessões de estudo, o painel opera com uma interface *Mobile-First* e *Dark Mode* nativo, garantindo conforto visual para leitura noturna e foco absoluto no conteúdo.
+
+## 🏗️ Arquitetura e Stack
+
+Uma SPA (Single Page Application) estática, leve e sem dependências de frameworks pesados. O motor do Bunker baseia-se em três pilares:
+
+| Componente | Tecnologia | Função no Bunker |
 | :--- | :--- | :--- |
-| 📚 **01-FUNDAMENTOS** | Cheatsheets de CSS, JS, HTML e Box Model. |  Em construção |
-| 🎨 **02-TEMPLATES** | Boilerplates prontos (HTML5 + CSS Reset) para iniciar projetos. | 🚧 Em construção |
-| 🛠️ **03-COMANDOS-GIT** | Guia de sobrevivência do Git e GitHub CLI. | 🚧 Em construção |
-| 🚨 **04-ERROS-E-SOLUCOES** | Troubleshooting: Como resolver bugs comuns. | 🚧 Em construção |
-| 🧪 **05-TESTES** | Scripts de teste e calculadoras de layout. | 🚧 Em construção |
+| **Estrutura** | HTML5 Semântico | Base sólida e acessível do terminal. |
+| **Estilização** | CSS3 (Mobile-First) | Tema escuro, botões de toque generoso e tipografia mono. |
+| **Engine** | Vanilla JS + Fetch API | Leitura assíncrona de arquivos locais e injeção dinâmica no DOM. |
+| **Parser** | Marked.js (CDN) | Conversão instantânea de `.md` para HTML renderizado. |
+
+## 🚀 Deploy
+
+O projeto utiliza **GitHub Pages** com CI/CD nativo. Cada *Save Point* (commit) na branch `main` atualiza automaticamente o ambiente de produção, garantindo que o Second Brain esteja sempre sincronizado e acessível de qualquer dispositivo.
+
+## 🛣️ Roadmap Futuro
+
+- [ ] **PWA (Progressive Web App):** Implementação de Service Workers para acesso 100% offline durante plantões sem conexão.
+- [ ] **Busca Global (Ctrl+K):** Motor de busca em tempo real para indexar títulos e conteúdos de todos os cheatsheets.
+- [ ] **Sincronização Local:** Export/Import de anotações pessoais via `localStorage`.
 
 ---
-
-## 🚀 STATUS ATUAL
-- **Foco:** Transição de Carreira (Operador de Pátio ➡️ Dev Front-End)
-- **Stack:** HTML5, CSS3, JavaScript (Vanilla)
-- **Meta:** Sair do emprego atual em Julho/2026.
-
----
-
-*"Construindo meu futuro com código. Sem pressa, mas sem pausa."*
+<p align="center">
+  <i>🔒 Bunker Architect // Mantido por Mateus Ernandes</i>
+</p>
